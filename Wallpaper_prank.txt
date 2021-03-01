@@ -1,7 +1,7 @@
-REM-----------------------------
+REM -----------------------------
 REM ===This code changes the wallpaper with rotated ss of the desktop while disabling all the desktop icons and toolbar and mouse
-REM ===by Mekhla
-REM-----------------------------
+REM ===by Mekhla(1905103)
+REM -----------------------------
 
 REM ==disabling touchpad
 GUI s
@@ -50,7 +50,7 @@ REM ==taking ss of desktop
 DELAY 1000 
 GUI d
 DELAY 50 
-GUI prt-scr
+PRINTSCREEN
 
 REM ==disabling desktop icons
 DELAY 1000
@@ -119,69 +119,3 @@ DOWNARROW
 DOWNARROW
 ENTER 
 ALT F4
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//github
-//git pull
-//git config --global user.name “github username”
-git config --global user.email  “email address”
-git  add .
-git  commit -m “Message that you want to put ”
-git  push -u origin maste
