@@ -1,6 +1,6 @@
-REM----------------------------------------------------
-REM -----This code opens a meterpreter session---------
-REM by Anishka Shukla----------------------------------
+REM--------------------------------------------------------------------
+REM -----This code steals the passwords and send that in email---------
+REM by Anishka Shukla--------------------------------------------------
 
 #include "Keyboard.h"
 #include "Mouse.h"
