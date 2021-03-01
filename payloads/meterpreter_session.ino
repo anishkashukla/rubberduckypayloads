@@ -1,6 +1,6 @@
-REM--------------------------------------------------
-REM -----This code opens a meterpreter session-------
-REM By Anishka Shukla -------------------------------
+// -------------------------------------------------
+// -----This code opens a meterpreter session-------
+// By Anishka Shukla -------------------------------
 
 #include <Keyboard.h>
 void setup()

