@@ -1,3 +1,6 @@
+//This payload changes the wallpaper with rotated ss of the desktop while disabling all the desktop icons and toolbar and mouse/touchpad. Enjoy pranking!
+//By :1905103(Mekhla)
+
 #include "Keyboard.h"
 #include "Mouse.h"
 
