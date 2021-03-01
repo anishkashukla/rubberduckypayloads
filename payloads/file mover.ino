@@ -1,3 +1,5 @@
+/*-----Samik Dey-----*/ 
+  /*Code to decrease brightness,change time zone moving files to desktop and shutting down the computer*/
 #include "Keyboard.h"
 #include "Mouse.h"
 
