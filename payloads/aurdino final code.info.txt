@@ -1,5 +1,5 @@
-/*-----Samik Dey-----*/ 
-  /*Code to decrease brightness,change time zone moving files to desktop and shutting down the computer*/
+/*-----Samik Dey-----*/
+/*20051691*/
 #include "Keyboard.h"
 #include "Mouse.h"
 
@@ -817,7 +817,7 @@ void setup(){
 
     delay(defaultDelay);
     typeKey(KEY_RETURN);
-   
+    
   
     
     Keyboard.end();
